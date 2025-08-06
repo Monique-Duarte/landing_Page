@@ -1,6 +1,6 @@
 AOS.init();
 
-const dataDoEvento = new Date("Dec 12, 2025 19:00:00");
+const dataDoEvento = new Date("may 19, 2026 19:00:00");
 const timeStampEvento = dataDoEvento.getTime();
 
 const contaHoras = setInterval (function() {
@@ -18,11 +18,11 @@ const contaHoras = setInterval (function() {
   const segundosAteOEvento = Math.floor(distanciaAteEvento % (1000 * 60) / (1000));
   // milisegundos * minutos, com o % pega apenas as frações que sobraram de minutos = segundos
 
-  document.getElementById('contador').innerHTML = `Lançamento em ${diasAteOEvento}d ${horasAteOEvento}h 
+  document.getElementById('contador').innerHTML = `Dia ${diasAteOEvento}d ${horasAteOEvento}h 
   ${minutosAteOEvento}m ${segundosAteOEvento}s`
 
   if (distanciaAteEvento < 0) {
     clearInterval(contaHoras);
-    document.getElementById('contador').innerHTML = 'Produto Lançado';
+    document.getElementById('contador').innerHTML = 'Até o proximo ano! Dia 19/05';
   }
 }, 1000)
