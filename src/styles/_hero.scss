@@ -5,7 +5,7 @@
   background-image: url(../images/hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 90vh;
+  height: 100vh;
   position: relative;
 
   .container {
@@ -30,17 +30,16 @@
     width: 50vw;
     margin-bottom: 20px;
 
-    &__sub {
-    font-size: 32px;
-    line-height: 40px;
-    padding-bottom: 70px;
-    }
+    // &__sub {
+    // font-size: 32px;
+    // line-height: 40px;
+    // padding-bottom: 70px;
+    // }
   }
 
   &__logo {
-  height: 200px;
-  margin-bottom: 20px;
-  border-radius: 50%;
+  height: 120px;
+  margin-bottom: 65px;
   }
 
 }
@@ -59,13 +58,14 @@
       line-height: 40px;
       width: 80%;
 
-      &__sub {
-      text-align: center;
-      margin: 0 auto;
-      }
+      // &__sub {
+      // text-align: center;
+      // margin: 0 auto;
+      // }
     }
 
     &__logo {
+      display: block;
       margin: 0 auto;
       margin-bottom: 32px;
     }
@@ -84,13 +84,13 @@
       line-height: 18px;
       width: 90%;
 
-      &__sub {
-      text-align: center;
-      margin: 0 auto;
-      font-size: 22px;
-      line-height: 18px;
-      width: 90%;
-      }
+      // &__sub {
+      // text-align: center;
+      // margin: 0 auto;
+      // font-size: 22px;
+      // line-height: 18px;
+      // width: 90%;
+      // }
     }
 
     &__logo {

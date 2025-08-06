@@ -9,16 +9,6 @@
 
   .container {
     display: flex;
-    gap: 70px;
-    margin-bottom: 70px;
-
-    &--left{
-      flex-direction: row-reverse;
-    }
-  }
-
-  .info {
-    display: flex;
   }
 
   &__content {
@@ -38,7 +28,8 @@
   }
 
   &__img {
-    height: 400px
+    margin-left: 20px;
+    height: 500px
   }
 
   @media (max-width: 640px) {

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,73 +7,53 @@
   <link rel="stylesheet" href="./styles/main.scss">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
-
 <body>
-  <header class="hero">
-    <div class="container">
-      <div class="info">
-      <img class="hero__logo" src="./images/foto.png" alt="minha foto com IA" class="Foto">
-      <p class="hero__text">Venha comemorar meu aniversário comigo!</p>
-      <p class="hero__text__sub"><span id="contador"></span></p>
-      </div>
-      <div class="infos-bar">
-        <ul class="infos-bar__infos">
-          <li class="infos-bar__infos__item">
-            <b>Reserve essa data</b>
-            19/05 as 19h
-          </li>
-          <li class="infos-bar__infos__item">
-            <b>Local</b>
-            Fazenda Rancho X
-          </li>
-          <a href="#" class="button button--primary"> Confirmar presença</a>
-        </ul>
-      </div>
+<header class="hero">
+  <div class="container">
+    <img class="hero__logo" src="./images/logo.png" alt="Logo Aura" class="logo"> 
+    <p class="hero__text">Tudo na palma da mão!</p>
+    <p class="hero__text">Planeje. Cresça. Viva.</p>
+    <p class="hero__text"><span id="contador"></span></p>
+    <div class="infos-bar">
+      <ul class="infos-bar__infos">
+        <li class="infos-bar__infos__item">
+          <b>Sobre o Aura</b>
+          Tudo no seu dia a dia.
+        </li>
+        <li class="infos-bar__infos__item">
+          <b>Preço</b>
+          A partir de R$ 4,99 por mês.
+        </li>
+        <li class="infos-bar__infos__item">
+          <b>Suporte</b>
+          Entre em contato
+        </li> 
+        <a href="#" class="button button--primary"> Adquira já!</a>
+      </ul>
     </div>
-  </header>
+  </div>
+</header>
 
-  <section class="about about--sobre">
-    <div class="container" data-aos="fade-right">
-      <div class="about__content">
-        <h2 class="about__content__title">Sobre o evento</h2>
-        <p class="about__content__text">
-          Será uma confraternização apenas para os mais próximos. 
-        </p>
-        <p class="about__content__text">
-          Local tranquilo e aconchegante. 
-        </p>
-        <p class="about__content__text">
-          Comida boa e companhia melhor ainda.
-        </p>
-        <p class="about__content__text">
-          Recomendação de trages confortaveis.
-        </p>
-      </div>
-      <img class="about__img" src="./images/foto.png" alt="Aura">
+<section class="about about--sobre">
+  <div class="container" data-aos="fade-right">
+    <div class="about__content">
+      <h2 class="about__content__title" >Sobre o Aura</h2>
+      <p class="about__content__text">
+        O Aura é um aplicativo inovador que visa transformar a forma como você organiza e gerencia sua vida.
+      </p>
+      <p class="about__content__text">
+        Com uma interface intuitiva e recursos avançados, o Aura permite que você planeje seus objetivos, acompanhe seu progresso e alcance a liberdade financeira.
+      </p>
+      <p class="about__content__text">
+      Desde o gerenciamento de despesas ao planejamento futuro, o Aura é a solução completa para quem busca otimizar seu tempo e aumentar sua produtividade.
+      </p>
     </div>
-
-    <div class="container container--left" data-aos="fade-left">
-      <div class="about__content">
-        <h2 class="about__content__title">Janta</h2>
-        <p class="about__content__text">
-          Churrasco completo.
-        </p>
-        <p class="about__content__text">
-          Três opções de bolos e sobremesas.
-        </p>
-        <p class="about__content__text">
-          Erva mate garantida durante toda confraternização
-        </p>
-      </div>
-      <img class="about__img" src="./images/bolo.jpg" alt="Aura">
-    </div>
-    </div>
-  </section>
+    <img class="about__img" src="./images/dashboard.png" alt="Aura">
+  </div>
+</section>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script src="scripts/main.js"></script>
 </body>
-
 </html>
