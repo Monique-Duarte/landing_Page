@@ -1,0 +1,50 @@
+@use 'variables';
+
+.about {
+  padding: 80px 0;
+
+  &--sobre{
+    background-image: linear-gradient(variables.$yellow, variables.$dark);
+  }
+
+  .container {
+    display: flex;
+  }
+
+  &__content {
+    
+    &__title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 22px;
+    }
+
+    &__text {
+      font-size: 1.3rem;
+      line-height: 24px;
+      margin-bottom: 2rem;
+      text-shadow: black 0 0 1px;
+    }
+  }
+
+  &__img {
+    margin-left: 20px;
+    height: 100%;
+  }
+
+  @media (max-width: 640px) {
+    padding: 40px 0;
+    text-align: justify;
+
+    .container {
+      display: block;
+    }
+
+    &__img {
+      margin-left: 0;
+      margin-top: 20px;
+      width: 100%;
+      height: auto;
+    }
+  }
+}

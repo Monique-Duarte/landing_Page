@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Aura</title>
   <link rel="stylesheet" href="./styles/main.scss">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,11 +12,48 @@
 <body>
 <header class="hero">
   <div class="container">
-    <img class="hero__logo" src="./images/Group 1.png" alt="Logo Aura" class="logo">
+    <img class="hero__logo" src="./images/logo.png" alt="Logo Aura" class="logo">
     <p class="hero__text">Tudo na palma da mão!</p>
-    <p class="hero__text__sub">Planeje. Cresça. Viva.</p>
+    <p class="hero__text">Planeje. Cresça. Viva.</p>
+    <p class="hero__text__sub"><span id="contador"></span></p>
+    <div class="infos-bar">
+      <ul class="infos-bar__infos">
+        <li class="infos-bar__infos__item">
+          <b>Sobre o Aura</b>
+          Tudo no seu dia a dia.
+        </li>
+        <li class="infos-bar__infos__item">
+          <b>Preço</b>
+          A partir de R$ 4,99 por mês.
+        </li>
+        <li class="infos-bar__infos__item">
+          <b>Suporte</b>
+          Entre em contato
+        </li> 
+        <a href="#" class="button button--primary"> Adquira já!</a>
+      </ul>
+    </div>
   </div>
 </header>
+
+<section class="about about--sobre">
+  <div class="container" data-aos="fade-right">
+    <div class="about__content">
+      <h2 class="about__content__title" >Sobre o Aura</h2>
+      <p class="about__content__text">
+        O Aura é um aplicativo inovador que visa transformar a forma como você organiza e gerencia sua vida.
+      </p>
+      <p class="about__content__text">
+        Com uma interface intuitiva e recursos avançados, o Aura permite que você planeje seus objetivos, acompanhe seu progresso e alcance a liberdade financeira.
+      </p>
+      <p class="about__content__text">
+      Desde o gerenciamento de despesas ao planejamento futuro, o Aura é a solução completa para quem busca otimizar seu tempo e aumentar sua produtividade.
+      </p>
+    </div>
+    <img class="about__img" src="./images/reserve.png" alt="Aura">
+  </div>
+</section>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script src="scripts/main.js"></script>
 </body>
 </html>
